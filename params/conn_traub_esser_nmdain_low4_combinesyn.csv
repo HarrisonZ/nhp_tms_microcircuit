@@ -1,0 +1,13 @@
+﻿pre_name,pre_type,post_name,post_type,syn_name,delay_mean,delay_std,CV,strength,p,wratio
+L23exc,E,L23exc,E,AMPA,0.4,0.1,,1,0.05,0.1
+L23exc,E,L5exc,E,AMPA,1.4,0.25,,1,0.06,0.1
+L23exc,E,Inh,I,AMPA,0.4,0.1,,1.75,0.09,0.1
+L5exc,E,L23exc,E,AMPA,1.4,0.25,,1,0.01,0.1
+L5exc,E,L5exc,E,AMPA,1.4,0.25,,1,0.0625,0.1
+L5exc,E,Inh,I,AMPA,0.4,0.1,,1.75,0.025,0.1
+Inh,I,L23exc,E,GABAA,0.4,0.1,,1,0.12,2.777777778
+Inh,I,L5exc,E,GABAA,0.4,0.1,,1,0.15,2.777777778
+Inh,I,Inh,I,GABAA,0.4,0.1,,1,0.15,2.777777778
+inL23exc,E,L23exc,E,AMPA,6,0.5,,2.7,0.15,0.037037037
+inL5exc,E,L5exc,E,AMPA,6,0.5,,4.5,0.15,0.022222222
+inInh,E,Inh,I,AMPA,6,0.5,,2,0.15,0.4
